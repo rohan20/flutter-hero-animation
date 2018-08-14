@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
+import 'package:hero_animation/MoviesGrid.dart';
 
 void main() {
   runApp(MoviesListPage());
@@ -21,41 +21,7 @@ class _MoviesListPageState extends State<MoviesListPage> {
         appBar: AppBar(
           title: Text("Movies List"),
         ),
-        body: _displayMoviesGrid(),
-      ),
-    );
-  }
-
-  _displayMoviesGrid() {
-    return GridView.count(
-      mainAxisSpacing: 4.0,
-      childAspectRatio: 2 / 3.2,
-      crossAxisCount: 2,
-      children: <Widget>[
-        _createMovieGridItem(),
-        _createMovieGridItem(),
-        _createMovieGridItem(),
-        _createMovieGridItem(),
-        _createMovieGridItem(),
-        _createMovieGridItem(),
-        _createMovieGridItem(),
-        _createMovieGridItem(),
-        _createMovieGridItem(),
-        _createMovieGridItem(),
-      ],
-    );
-  }
-
-  _createMovieGridItem() {
-    return Card(
-      child: Column(
-        children: <Widget>[
-          Image.network("http://www.impawards.com/2009/posters/avatar.jpg"),
-          Padding(
-            padding: const EdgeInsets.only(top: 4.0),
-            child: Text("Avatar"),
-          ),
-        ],
+        body: MoviesGrid(),
       ),
     );
   }
