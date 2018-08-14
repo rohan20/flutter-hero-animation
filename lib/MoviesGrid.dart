@@ -18,38 +18,41 @@ class _MoviesGridState extends State<MoviesGrid> {
       childAspectRatio: 2 / 3.2,
       crossAxisCount: 2,
       children: <Widget>[
-        _createMovieGridItem(),
-        _createMovieGridItem(),
-        _createMovieGridItem(),
-        _createMovieGridItem(),
-        _createMovieGridItem(),
-        _createMovieGridItem(),
-        _createMovieGridItem(),
-        _createMovieGridItem(),
-        _createMovieGridItem(),
-        _createMovieGridItem(),
+        _createMovieGridItem(0),
+        _createMovieGridItem(1),
+        _createMovieGridItem(2),
+        _createMovieGridItem(3),
+        _createMovieGridItem(4),
+        _createMovieGridItem(5),
+        _createMovieGridItem(6),
+        _createMovieGridItem(7),
+        _createMovieGridItem(8),
+        _createMovieGridItem(9),
       ],
     );
   }
 
-  _createMovieGridItem() {
+  _createMovieGridItem(int index) {
     return Material(
       elevation: 4.0,
       child: InkWell(
         onTap: () {
           Navigator.of(context).push(
-                MaterialPageRoute(builder: (context) => MovieDetailsPage("http://www.impawards.com/2009/posters/avatar.jpg")),
+                MaterialPageRoute(builder: (context) => MovieDetailsPage("http://www.impawards.com/2009/posters/avatar.jpg", index)),
               );
         },
-        child: Card(
-          child: Column(
-            children: <Widget>[
-              Image.network("http://www.impawards.com/2009/posters/avatar.jpg"),
-              Padding(
-                padding: const EdgeInsets.only(top: 4.0),
-                child: Text("Avatar"),
-              ),
-            ],
+        child: Hero(
+          tag: index.toString(),
+          child: Card(
+            child: Column(
+              children: <Widget>[
+                Image.network("http://www.impawards.com/2009/posters/avatar.jpg"),
+                Padding(
+                  padding: const EdgeInsets.only(top: 4.0),
+                  child: Text("Avatar"),
+                ),
+              ],
+            ),
           ),
         ),
       ),

@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 
 class MovieDetailsPage extends StatefulWidget {
   final String imageUrl;
+  final int index;
 
-  MovieDetailsPage(this.imageUrl);
+  MovieDetailsPage(this.imageUrl, this.index);
 
   @override
   _MovieDetailsPageState createState() => _MovieDetailsPageState();
@@ -17,10 +18,13 @@ class _MovieDetailsPageState extends State<MovieDetailsPage> {
         title: Text("Movie Details"),
       ),
       body: Center(
-        child: Container(
-          height: 400.0,
-          width: 400.0,
-          child: Image.network(widget.imageUrl),
+        child: Hero(
+          tag: widget.index.toString(),
+          child: Container(
+            height: 400.0,
+            width: 200.0,
+            child: Image.network(widget.imageUrl),
+          ),
         ),
       ),
     );

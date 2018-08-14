@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7dd9673-3a5f-4e75-b161-3b70b0292ddc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/MovieDetailsPage.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/MoviesGrid.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/MovieDetailsPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/MovieDetailsPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/MoviesGrid.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/MoviesGrid.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +18,8 @@
       <file leaf-file-name="MoviesGrid.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/MoviesGrid.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="40" column="123" selection-start-line="40" selection-start-column="123" selection-end-line="40" selection-end-column="123" />
+            <state relative-caret-position="222">
+              <caret line="40" column="64" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -32,8 +30,8 @@
       <file leaf-file-name="MovieDetailsPage.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/MovieDetailsPage.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="289">
+              <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -195,9 +193,9 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19955157" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19955157" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.23206279" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.23206279" />
       <window_info id="Captures" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24982156" />
       <window_info anchor="right" id="Theme Preview" />
@@ -234,8 +232,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/MoviesGrid.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="40" column="123" selection-start-line="40" selection-start-column="123" selection-end-line="40" selection-end-column="123" />
+        <state relative-caret-position="222">
+          <caret line="40" column="64" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -244,8 +242,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/MovieDetailsPage.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="289">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
         </state>
       </provider>
     </entry>
